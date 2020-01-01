@@ -1,0 +1,56 @@
+.search {
+  margin: 10px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search div {
+  margin: 15px 0px;
+}
+
+.search__text {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.searchBar {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchBar input {
+  width: 80%;
+  height: 45px;
+  border: 0px;
+  font-size: 18px;
+  border-radius: 20px;
+  box-shadow: 0px 30px 60px -12px rgba(50, 50, 93, 0.25),
+    0px 18px 36px -18px rgba(0, 0, 0, 0.3),
+    0px -12px 36px -8px rgba(0, 0, 0, 0.025);
+  padding-left: 60px;
+}
+
+.searchBar input:hover {
+  outline: none;
+}
+
+.searchBar span {
+  position: relative;
+}
+
+.searchBar i {
+  position: absolute;
+  top: -8px;
+  left: 24px;
+}
+
+.faq__table .list {
+  display: none;
+}
+
+.show__list {
+  display: block;
+}

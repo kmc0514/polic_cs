@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800&display=swap&subset=korean"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/8c4cf18d2e.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Polic 고객센터</title>
+  </head>
+  <body>
+    <header>
+      <nav class="header__nav">
+        <div class="header__nav-logo">
+          <span class="logo__icon header__setting">
+            <a href="http://www.policweb.com">
+              <img src="images/logo.png" alt="" />
+            </a>
+          </span>
+          <span class="logo__text header__setting">고객센터</span>
+        </div>
+        <div class="header__nav-icon">
+          <i class="far fa-images header__setting"></i>
+          <i class="far fa-user-circle header__setting"></i>
+        </div>
+      </nav>
+      <div class="header__alert" id="headerAlert">
+        <span
+          >Polic의 사용자에게 공정한 서비스를 제공하기 위해서 서비스 정책을
+          안내합니다.
+          <a href="http://www.policweb.com/agree/used">(자세히보기)</a></span
+        >
+        <span id="alertCloseBtn"><i class="fas fa-times"></i></span>
+      </div>
+    </header>
+
+    <main>
+      <div class="search">
+        <div>
+          <img
+            src="images/appicon.png"
+            alt=""
+            style="width: 80px; height: 80px;"
+          />
+        </div>
+        <div class="search__text">무엇이 궁금하신가요?</div>
+        <div class="searchBar">
+          <span><i class="fas fa-search"></i></span>
+          <input type="text" placeholder="문제를 설명해 주세요." />
+        </div>
+      </div>
+      <ul class="faq">
+        <li class="faq__table">
+          <span>Polic 시작하기</span>
+          <i class="fas fa-angle-down"></i>
+          <ul class="faq__table list">
+            <li class="list item"><a href="">김명철 연습중</a></li>
+            <li class="list item"><a href="">김명철 연습중</a></li>
+            <li class="list item"><a href="">김명철 연습중</a></li>
+            <li class="list item"><a href="">김명철 연습중</a></li>
+          </ul>
+        </li>
+        <li class="faq__table">
+          <span>Polic 사용하기</span>
+          <i class="fas fa-angle-down"></i>
+          <ul class="faq__table list">
+            <li class="list item"><a href="">김명철 연습중</a></li>
+            <li class="list item"><a href="">김명철 연습중</a></li>
+            <li class="list item"><a href="">김명철 연습중</a></li>
+            <li class="list item"><a href="">김명철 연습중</a></li>
+          </ul>
+        </li>
+        <li class="faq__table">
+          <span>취소 및 환불</span>
+          <i class="fas fa-angle-down"></i>
+          <ul class="faq__table list">
+            <li class="list item"><a href=""></a></li>
+          </ul>
+        </li>
+        <li class="faq__table">
+          <span>분쟁 해결</span>
+          <i class="fas fa-angle-down"></i>
+          <ul class="faq__table list">
+            <li class="list item"><a href=""></a></li>
+          </ul>
+        </li>
+      </ul>
+    </main>
+    <footer></footer>
+
+    <!-- javascript -->
+    <script src="header_alert.js"></script>
+    <script src="faq.js"></script>
+  </body>
+</html>
