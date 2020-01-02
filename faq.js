@@ -1,10 +1,11 @@
 const table = document.getElementsByClassName("faq__table");
+const list = document.getElementsByClassName("faq__table-list");
 
 function toggleHandler(event) {
-  const innerTable = event.path[1].getElementsByClassName("faq__table list")[0];
-  innerTable.classList.add("show__list");
+  const lists = event.path[1].lastElementChild;
+  lists.classList.toggle("show__list");
 }
 
-Array.from(table).forEach(toggle => {
-  toggle.addEventListener("click", toggleHandler);
+Array.from(table).forEach(tables => {
+  tables.addEventListener("click", toggleHandler);
 });
